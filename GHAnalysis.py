@@ -79,7 +79,7 @@ def CountUAR(user, repo, event) :
         print(file[user][repo].get(event))
 
 
-class Run_test2 :
+class Run_single :
     def __init__(self) :
         self.parser = argparse.ArgumentParser()
         #self.data = None
@@ -120,4 +120,4 @@ class Run_test2 :
 
 
 if __name__ == '__main__':
-    Run = Run_test2()
+    Run = Run_single
